@@ -1,0 +1,29 @@
+
+body {
+
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+#div1 {
+    width: 1000px;
+    height: 800px;
+    /*background-color: #FF7F24;*/
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*
+    1.background-position： center left
+    使用关键字，center left表示，第一个值是 y方向，第二个值是x方向
+    2.background-position: 50% 3%刚好相反
+    3.background-position: 同上
+    */
+    border: 1px solid #cccccc;
+}
+
+/*#div1 p {*/
+    /*background-color: #999999;*/
+/*}*/
