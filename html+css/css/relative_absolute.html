@@ -3,11 +3,58 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>相对定位和绝对定位</title>
+<style>
+
+    body {
+
+       height: 2000px;
+    }
+
+    #div1 {
+     width: 100px;
+     height: 100px;
+     background: #ffcc00;
+     position: relative;
+     /*
+     1.position: relative;相对于原来的位置进行定位（偏移）
+     2.为元素设置相对定位后，元素依然会占据原来的位置，依然在标准流中
+      position: relative;
+      left: 40px;
+      right: 10px;
+      top: 40px;
+       /*position: absolute;*/
+        /*left: 40px;*/
+        /*top: 40px;
+      */
+    }
+
+    #div2 {
+        width: 100px;
+        height: 100px;
+        background: #6633ff;
+        position: absolute;
+        top: 30px;
+    }
+
+    #div3 {
+        width: 100px;
+        height: 100px;
+        background: #FF0000;
+        position: fixed;
+        left: 20px;
+        top: 20px;
+    }
+
+
+</style>
+
+
 </head>
 <body>
 
-
-
+<div id="div1">div1</div>
+<div id="div2">div2</div>
+<div id="div3">div3</div>
 
 </body>
 </html>
