@@ -58,10 +58,43 @@ a:hover {
 }
 
 #runplay .left {
-
-    
+    width: 300px;
+    float: left;
+    margin: 80px 0 0 30px;
 }
 
+#runplay .right {
+    width: 300px;
+    float: left;
+    margin: 85px 0 0 100px;
+}
+
+#runplay .right dl dt {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+#runplay .right dl dd.txt {
+     font-size: 16px;
+     color: #ffffff;
+     margin: 0 0 20px 0;
+}
+
+#runplay .right dl dd.btn a {
+    background: url("default.png");
+    display: block;
+    width: 103px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#runplay .right dl dd.btn a:hover {
+    background: url("d_hover.png");
+}
 
 .auto {
   width: 980px;
@@ -128,6 +161,8 @@ a:hover {
    color: #ffffff;
    text-decoration: none;
 }
+
+
 
 
 
