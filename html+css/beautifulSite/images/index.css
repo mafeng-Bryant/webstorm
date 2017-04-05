@@ -164,6 +164,95 @@ a:hover {
    text-decoration: none;
 }
 
+#wap {
+    height: 850px;
+    width: 920px;
+    margin: 0px auto;
+}
+
+#wap #leftBody {
+    width: 620px;
+    height: 850px;
+    float: left;
+}
+
+#wap #rightBody {
+    width: 240px;
+    height: 850px;
+    background: green;
+    float: right;
+}
+
+/*margin：上右下左*/
+
+#wap #leftBody .leftDiv1 h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 25px 0 20px 0px ;
+}
+
+#wap #leftBody .leftDiv1 p {
+   color: #555555;
+}
+
+#wap #leftBody .leftDiv1 p a{
+    color: #0074c5;
+}
+
+#wap #leftBody .leftDiv2 h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 25px 0 20px 0px ;
+}
+
+
+#wap #leftBody .leftDiv2 ul li {
+    width: 270px;
+    height: 170px;
+    background: #F1F2EA;
+    border: 1px solid #D5D7CA;
+    padding: 6px;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+#wap #leftBody .leftDiv2 ul li p {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#wrap #leftBody .leftDiv3 {
+    clear:both;
+}
+
+#wap #leftBody .leftDiv3 a {
+    background: url("default.png");
+    width: 103px;
+    height: 27px;
+    text-align:center;
+    line-height:27px;
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:bold;
+    display:block;
+}
+
+#wap #leftBody .leftDiv3 a:hover {
+    background: url("hover.png");
+}
+
+
+
+
+
+
+
+
 
 
 
