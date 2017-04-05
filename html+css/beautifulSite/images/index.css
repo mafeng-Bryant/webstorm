@@ -1,0 +1,261 @@
+/*将所有便签的内外边距设置0以及字体大小统一*/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+   margin: 0px;
+   padding: 0px;
+   font-size: 13px;
+ }
+
+/*去掉小圆点*/
+ul {
+    list-style: none;
+}
+
+/*去掉图片边框*/
+img, a img {
+  border: none;
+}
+
+/*去掉下划线*/
+a {
+   text-decoration: none;
+}
+
+/*鼠标放在上面添加下划线*/
+a:hover {
+  text-decoration: underline;
+}
+
+#header {
+   height: 452px; 
+   background: url("top_bg.jpg") repeat-x;
+   color: white;
+}
+
+#main {
+   background: url("main_top_bg.jpg") repeat-x;
+}
+
+#main1 {
+   background: url("main1_bottom_bg.jpg") 0px bottom repeat-x;
+}
+
+#footer {
+  height: 100px;
+  background: url("footer_bg.jpg") repeat-x;
+}
+
+#top {
+ height: 100px;
+}
+
+#nav {
+  height: 50px;
+}
+
+#runplay {
+    height: 301px;
+    background: url("runplay_bg.jpg");
+}
+
+#runplay .left {
+    width: 300px;
+    float: left;
+    margin: 80px 0 0 30px;
+    display: inline;
+}
+
+#runplay .right {
+    width: 300px;
+    float: left;
+    margin: 85px 0 0 100px;
+    display: inline;
+}
+
+#runplay .right dl dt {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+#runplay .right dl dd.txt {
+     font-size: 16px;
+     color: #ffffff;
+     margin: 0 0 20px 0;
+}
+
+#runplay .right dl dd.btn a {
+    background: url("default.png");
+    display: block;
+    width: 103px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#runplay .right dl dd.btn a:hover {
+    background: url("d_hover.png");
+}
+
+.auto {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#top .logo {
+   width: 291px;
+   padding: 25px 0 0 25px;
+   float: left;
+}
+
+#top h1 span {
+  font-size: 14px;
+  color: #cccccc;
+  float: right;
+}
+
+#top .search {
+   width: 280px;
+   height: 50px;
+   float: right;
+   margin: 30px 30px 0px 20px;
+}
+
+#top .search .text {
+  width: 180px;
+  height: 15px;
+  background: #161B1F;
+  color: #BCBCBC;
+  border: 1px solid #0B0E10;
+  padding: 5px;
+}
+
+#top .search .submit {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#nav ul {
+  margin: 0 0 0 25px;
+}
+
+#nav ul li {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+#nav ul li a {
+     color: black;
+     font-size: 13px;
+     font-weight: bold;
+     display: block;
+     width: 103px;
+     height: 27px;
+     text-align: center;
+     line-height: 27px;
+     margin: 11.5px 0 0 0;
+}
+
+#nav ul li a:hover {
+   background: url("hover.png");
+   color: #ffffff;
+   text-decoration: none;
+}
+
+#wap {
+    height: 850px;
+    width: 920px;
+    margin: 0px auto;
+}
+
+#wap #leftBody {
+    width: 620px;
+    height: 850px;
+    float: left;
+}
+
+#wap #rightBody {
+    width: 240px;
+    height: 850px;
+    background: green;
+    float: right;
+}
+
+/*margin：上右下左*/
+
+#wap #leftBody .leftDiv1 h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 25px 0 20px 0px ;
+}
+
+#wap #leftBody .leftDiv1 p {
+   color: #555555;
+}
+
+#wap #leftBody .leftDiv1 p a{
+    color: #0074c5;
+}
+
+#wap #leftBody .leftDiv2 h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 25px 0 20px 0px ;
+}
+
+
+#wap #leftBody .leftDiv2 ul li {
+    width: 270px;
+    height: 170px;
+    background: #F1F2EA;
+    border: 1px solid #D5D7CA;
+    padding: 6px;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+#wap #leftBody .leftDiv2 ul li p {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#wrap #leftBody .leftDiv3 {
+    clear:both;
+}
+
+#wap #leftBody .leftDiv3 a {
+    background: url("default.png");
+    width: 103px;
+    height: 27px;
+    text-align:center;
+    line-height:27px;
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:bold;
+    display:block;
+}
+
+#wap #leftBody .leftDiv3 a:hover {
+    background: url("hover.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
