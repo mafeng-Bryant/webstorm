@@ -304,6 +304,25 @@ a:hover {
     font-weight: bold;
 }
 
+#footer p {
+    text-align: center;
+    color: #ffffff;
+    line-height: 200%;
+}
+
+#footer p a {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 0 20px 0 0;
+}
+
+#footer p.p1 {
+   padding-top: 20px;
+}
+
+#footer p a.last {
+  margin: 0px;
+}
 
 
 
