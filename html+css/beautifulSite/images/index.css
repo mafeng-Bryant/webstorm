@@ -179,7 +179,6 @@ a:hover {
 #wap #rightBody {
     width: 240px;
     height: 850px;
-    background: green;
     float: right;
 }
 
@@ -245,6 +244,63 @@ a:hover {
 #wap #leftBody .leftDiv3 a:hover {
     background: url("hover.png");
 }
+
+ #rightBody .rightDiv1 h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 25px 0 0px 0px ;
+}
+
+#rightBody .rightDiv1 ul li {
+   border-bottom:1px dashed #cccccc ;
+   height: 70px;
+   padding: 18px 0 0 0;
+}
+
+
+#rightBody .rightDiv1 ul li h3 a {
+    color: #0074c5;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#rightBody .rightDiv1 ul li h3 a:hover {
+  color: #009900;
+}
+
+#rightBody .rightDiv1 ul li p {
+    color: #555555;
+    margin: 5px 0 0 0;
+}
+
+#rightBody .rightDiv2 dl {
+    width: 100%;
+    height: 64px;
+}
+
+#rightBody .rightDiv2 dl.dl1 {
+  background: url("twitter.png") 160px center no-repeat;
+}
+
+#rightBody .rightDiv2 dl.dl2 {
+    background: url("rss.png") 160px center no-repeat;
+}
+
+#rightBody .rightDiv2 dl dt a {
+  font-size: 24px;
+   color: #333333;
+   font-weight: bold;
+}
+
+#rightBody .rightDiv2 dl dd {
+    font-size: 15px;
+}
+
+
+
+
+
 
 
 
