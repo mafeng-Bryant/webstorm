@@ -1,0 +1,113 @@
+/*将所有便签的内外边距设置0以及字体大小统一*/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+/*去掉小圆点*/
+ul {
+    list-style: none;
+}
+
+/*去掉图片边框*/
+img, a img {
+    border: none;
+}
+
+/*去掉下划线*/
+a {
+    text-decoration: none;
+}
+
+/*鼠标放在上面添加下划线*/
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*头部*/
+#header {
+    height: 452px;
+    background: url("top_bg.jpg") repeat-x;
+    color: white;
+}
+
+#top {
+    height: 100px;
+}
+
+#nav {
+    height: 50px;
+}
+
+#runplay {
+    height: 301px;
+    background: url("runplay_bg.jpg");
+}
+
+#runplay .left {
+    width: 300px;
+    float: left;
+    margin: 80px 0 0 30px;
+    display: inline;
+}
+
+#runplay .right {
+    width: 300px;
+    float: left;
+    margin: 85px 0 0 100px;
+    display: inline;
+}
+
+#runplay .right dl dt {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+#runplay .right dl dd.txt {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+#runplay .right dl dd.btn a {
+    background: url("default.png");
+    display: block;
+    width: 103px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#runplay .right dl dd.btn a:hover {
+    background: url("d_hover.png");
+}
+
+.auto {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#footer p {
+    text-align: center;
+    color: #ffffff;
+    line-height: 200%;
+}
+
+#footer p a {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 0 20px 0 0;
+}
+
+#footer p.p1 {
+    padding-top: 20px;
+}
+
+#footer p a.last {
+    margin: 0px;
+}
